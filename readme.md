@@ -77,3 +77,12 @@ You could run unit tests with the help of IntelliJ. But it is also possible to r
 
 If you just want to build your code without running test. Please use `./gradlew build -x test
 `
+Inheritance Test:
+1. should_be_derived_from_object_class()
+  a) What is the knowledge point of the test? Where is the offical document to the knowledge point?
+   - To determine which is the parent class.
+  b) Why the test failed at first?
+   - expected result is null.
+  c) Why you corrected the test that way?
+   - Object is the parent class.
+  d) Do you have further questions on this knowledge point?
